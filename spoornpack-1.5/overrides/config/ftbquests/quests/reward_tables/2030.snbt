@@ -1,0 +1,85 @@
+{
+	id: "00000000000007EE"
+	order_index: 20
+	title: "Rare Blood Magic Loot Box"
+	icon: {
+		id: "kubejs:rare_lootbox"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "bloodmagic:basiccuttingfluid"
+				Count: 1b
+				tag: {
+					AS_Amulet_Holder: [I;
+						890568276
+						-155696308
+						-1076725423
+						-1360458671
+					]
+					Damage: 0
+					Enchantments: [{
+						lvl: 5s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "bloodmagic:primitive_explosive_cell"
+				Count: 1b
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						lvl: 5s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "bloodmagic:primitive_crystalline_resonator"
+				Count: 1b
+				tag: {
+					AS_Amulet_Holder: [I;
+						890568276
+						-155696308
+						-1076725423
+						-1360458671
+					]
+					Damage: 0
+					Enchantments: [{
+						lvl: 5s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				id: "bloodmagic:lavacrystal"
+				Count: 1b
+				tag: {
+					Enchantments: [{
+						lvl: 5s
+						id: "minecraft:unbreaking"
+					}]
+				}
+			}
+		}
+	]
+}

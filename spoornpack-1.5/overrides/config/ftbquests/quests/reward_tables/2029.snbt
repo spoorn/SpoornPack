@@ -1,0 +1,112 @@
+{
+	id: "00000000000007ED"
+	order_index: 19
+	title: "Legendary Mekanism Loot Box"
+	icon: {
+		id: "kubejs:legendary_lootbox"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 3
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "mekanism:reprocessed_fissile_fragment"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 24
+		}
+		{
+			item: {
+				id: "mekanism:quantum_entangloporter"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			weight: 2
+		}
+		{
+			item: {
+				id: "mekanism:upgrade_speed"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 8
+			weight: 2
+		}
+		{
+			item: {
+				id: "mekanism:upgrade_energy"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 8
+			weight: 2
+		}
+		{
+			item: {
+				id: "mekanism:ultimate_induction_cell"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanism:pellet_polonium"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+	]
+}

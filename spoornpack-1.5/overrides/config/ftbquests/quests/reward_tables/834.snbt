@@ -1,0 +1,137 @@
+{
+	id: "0000000000000342"
+	order_index: 52
+	title: "Rare Nature's Aura Loot Box"
+	icon: {
+		id: "kubejs:rare_lootbox"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "naturesaura:pickup_stopper"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "naturesaura:infused_iron"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "naturesaura:gold_powder"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 8
+		}
+		{
+			item: {
+				id: "naturesaura:token_joy"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "naturesaura:token_fear"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "naturesaura:token_anger"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "naturesaura:token_sorrow"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "naturesaura:ancient_log"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 16
+		}
+	]
+}

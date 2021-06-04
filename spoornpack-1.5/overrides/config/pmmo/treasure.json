@@ -1,0 +1,14 @@
+{
+	"#forge:stone":
+	{
+		"minecraft:iron_nugget": {
+			"startChance": 0,
+			"startLevel": 1,
+			"endChance": 0,
+			"endLevel": 150,
+			"xpPerItem": 5,
+			"minCount": 1,
+			"maxCount": 3
+		}
+	}
+}

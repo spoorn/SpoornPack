@@ -1,0 +1,937 @@
+{
+	id: "0000000000000F93"
+	group: ""
+	order_index: 32
+	filename: "trophy_wife"
+	title: "Trophy Wife"
+	icon: {
+		id: "farmersdelight:sweet_berry_cheesecake"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Yes I do the cooking"
+			x: 0.0d
+			y: 0.0d
+			dependency_requirement: "one_completed"
+			id: "0000000000000F94"
+			tasks: [
+				{
+					id: "0000000000000F95"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:no_filter_edition"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FAE"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:recipe_book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FAF"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:crafting_book"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000FB0"
+					type: "item"
+					item: {
+						id: "minecraft:diamond"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FB1"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:softpretzelitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "0000000000000FB2"
+					type: "item"
+					item: {
+						id: "minecraft:terracotta"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 24
+				}
+			]
+		}
+		{
+			title: "Fridge"
+			x: 2.0d
+			y: 3.0d
+			dependencies: ["0000000000000F9A"]
+			id: "0000000000000F96"
+			tasks: [{
+				id: "0000000000000F97"
+				type: "item"
+				item: {
+					id: "cookingforblockheads:fridge"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000FB9"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:cow_jar"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FBA"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:toaster"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Cooking Table"
+			icon: {
+				id: "cookingforblockheads:cooking_table"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 2.0d
+			y: 0.0d
+			dependencies: ["0000000000000F94"]
+			id: "0000000000000F98"
+			tasks: [{
+				id: "0000000000000F99"
+				type: "item"
+				item: {
+					id: "cookingforblockheads:cooking_table"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000FB3"
+					type: "item"
+					item: {
+						id: "minecraft:iron_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "0000000000001001"
+					type: "xp"
+					xp: 100
+				}
+			]
+		}
+		{
+			title: "Oven"
+			x: 2.0d
+			y: 2.0d
+			dependencies: ["0000000000000FA0"]
+			id: "0000000000000F9A"
+			tasks: [{
+				id: "0000000000000F9B"
+				type: "item"
+				item: {
+					id: "cookingforblockheads:oven"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000FB5"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:ice_unit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FB6"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:preservation_chamber"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FB7"
+					type: "item"
+					item: {
+						id: "minecraft:coal_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+			]
+		}
+		{
+			title: "Sink"
+			icon: {
+				id: "cookingforblockheads:sink"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 2.0d
+			y: 1.0d
+			dependencies: ["0000000000000F98"]
+			id: "0000000000000FA0"
+			tasks: [{
+				id: "0000000000000FA1"
+				type: "item"
+				item: {
+					id: "cookingforblockheads:sink"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000FB4"
+					type: "item"
+					item: {
+						id: "cookingforblockheads:heating_unit"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FB8"
+					type: "random"
+					table_id: 1664L
+				}
+			]
+		}
+		{
+			title: "Heating Unit"
+			x: 3.0d
+			y: 2.0d
+			dependencies: ["0000000000000F9A"]
+			id: "0000000000000FA4"
+			tasks: [{
+				id: "0000000000000FA5"
+				type: "item"
+				item: {
+					id: "cookingforblockheads:heating_unit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Ice Unit"
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["0000000000000F96"]
+			id: "0000000000000FA6"
+			tasks: [{
+				id: "0000000000000FA7"
+				type: "item"
+				item: {
+					id: "cookingforblockheads:ice_unit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Preservation Chamber"
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["0000000000000F96"]
+			id: "0000000000000FA8"
+			tasks: [{
+				id: "0000000000000FA9"
+				type: "item"
+				item: {
+					id: "cookingforblockheads:preservation_chamber"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Make all the Cakes!"
+			x: -2.5d
+			y: 2.5d
+			size: 1.5d
+			id: "0000000000000FDD"
+			tasks: [
+				{
+					id: "0000000000000FDE"
+					type: "item"
+					item: {
+						id: "minecraft:cake"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FDF"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:chocolatecakeitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE0"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:cheesecakeitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE1"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:pumpkincheesecakeitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE2"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:carrotcakeitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE3"
+					type: "item"
+					item: {
+						id: "farmersdelight:sweet_berry_cheesecake"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE4"
+					type: "item"
+					item: {
+						id: "simplefarming:birthday_cake"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE5"
+					type: "item"
+					item: {
+						id: "simplefarming:chocolate_cake"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE6"
+					type: "item"
+					item: {
+						id: "simplefarming:cassava_cake"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE7"
+					type: "item"
+					item: {
+						id: "simplefarming:jaffa_cake"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE8"
+					type: "item"
+					item: {
+						id: "simplefarming:pancakes"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FE9"
+					type: "item"
+					item: {
+						id: "simplefarming:sweet_potato_quinoa_cakes"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FEA"
+					type: "item"
+					item: "create:blaze_cake"
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000FF6"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "0000000000000FF9"
+					type: "item"
+					item: {
+						id: "resourcefulbees:oreo_cookie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 64
+				}
+				{
+					id: "0000000000000FFA"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "000000000000009B"
+					type: "item"
+					item: {
+						id: "randomloot:titan_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Sweet Tooth"
+			x: -2.5d
+			y: 0.0d
+			size: 1.5d
+			id: "0000000000000FEB"
+			tasks: [
+				{
+					id: "0000000000000FEC"
+					type: "item"
+					item: {
+						id: "simplefarming:candy"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FED"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:marshmellowsitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FEE"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:marshmellowchicksitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FEF"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:cottoncandyitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FF0"
+					type: "item"
+					item: {
+						id: "simplefarming:candy_cane"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FF1"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:gummybearsitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FF2"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:jellybeansitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FF3"
+					type: "item"
+					item: {
+						id: "simplefarming:ice_cream_sundae"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FF4"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:chocolaterollitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000FF5"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:chocolatebaritem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000000FFB"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_block"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "0000000000000FFC"
+					type: "item"
+					item: {
+						id: "resourcefulbees:oreo_cookie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 64
+				}
+				{
+					id: "0000000000000FFD"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "000000000000009C"
+					type: "item"
+					item: {
+						id: "randomloot:titan_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

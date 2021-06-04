@@ -1,0 +1,893 @@
+{
+	id: "0000000000000003"
+	group: ""
+	order_index: 19
+	filename: "industrial_foregoing"
+	title: "Industrial Foregoing"
+	icon: {
+		id: "industrialforegoing:latex_processing_unit"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Industrial Foregoing"
+			icon: {
+				id: "industrialforegoing:plastic"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 1.5d
+			y: -3.5d
+			description: ["This mod provides a wide range of machines to automate various tasks. This questline introduces some key machines (but not ALL the machines, as there are quite a few)."]
+			id: "000000000000004A"
+			tasks: [{
+				id: "0000000000000058"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "0000000000000638"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "industrialforegoing:industrial_foregoing"
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: -0.5d
+			description: ["The Fluid Extractor, shockingly, extracts fluid. Place one facing a log block, and it will slowly break down the log while producing Latex. Power is optional, but speeds up the process by a factor of 2.5. Acacia logs give the best yield."]
+			dependencies: ["000000000000004D"]
+			id: "000000000000004B"
+			tasks: [{
+				id: "000000000000004C"
+				type: "item"
+				item: {
+					id: "industrialforegoing:fluid_extractor"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000628"
+					type: "item"
+					item: {
+						id: "minecraft:acacia_log"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 32
+				}
+				{
+					id: "0000000000000CAB"
+					type: "item"
+					item: {
+						id: "minecraft:acacia_sapling"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -2.0d
+			description: ["There are currently three (craftable) tiers of IF machine frame. Right now, you can only make the lowest-tier version."]
+			dependencies: ["000000000000004A"]
+			id: "000000000000004D"
+			tasks: [{
+				id: "000000000000004E"
+				type: "item"
+				item: {
+					id: "industrialforegoing:machine_frame_pity"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000625"
+				type: "item"
+				item: {
+					id: "minecraft:iron_ingot"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 8
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			description: ["The Latex Processing Unit takes latex, water, and power as inputs to produce Tiny Dry Rubber. This can be crafted into Dry Rubber, which in turn is smelted into Plastic, a critical resource."]
+			dependencies: ["000000000000004B"]
+			id: "000000000000004F"
+			tasks: [{
+				id: "0000000000000050"
+				type: "item"
+				item: {
+					id: "industrialforegoing:latex_processing_unit"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000629"
+				type: "command"
+				title: "Rare Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:rare_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.0d
+			description: ["The second tier of machine frame. A few recipes (such as the Plant Fertilizer) use this frame on its own, but it's also a component of the third tier of machine frame."]
+			dependencies: [
+				"0000000000000054"
+				"0000000000000057"
+			]
+			id: "0000000000000051"
+			tasks: [{
+				id: "0000000000000052"
+				type: "item"
+				item: {
+					id: "industrialforegoing:machine_frame_simple"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000632"
+				type: "command"
+				title: "Rare Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:rare_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			description: ["The Mob Slaughter Factory kills mobs and animals in its area of effect. Entities slain in this way do not drop anything, but are converted to Liquid Meat and Pink Slime, liquids that can be piped out of the block."]
+			dependencies: ["000000000000004D"]
+			id: "0000000000000053"
+			tasks: [{
+				id: "0000000000000054"
+				type: "item"
+				item: {
+					id: "industrialforegoing:mob_slaughter_factory"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000626"
+				type: "item"
+				item: {
+					id: "industrialforegoing:meat_feeder"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			description: ["The Sewer, appropriately, collects sewage from animals in its area of effect (above it)."]
+			dependencies: ["000000000000004D"]
+			id: "0000000000000055"
+			tasks: [{
+				id: "0000000000000056"
+				type: "item"
+				item: {
+					id: "industrialforegoing:sewer"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000062F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:sewage_bucket"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: ["The Dissolution Chamber requires power and recipe-dependent items/fluids to craft various items."]
+			dependencies: [
+				"000000000000004C"
+				"000000000000004F"
+			]
+			id: "0000000000000057"
+			tasks: [{
+				id: "000000000000006B"
+				type: "item"
+				item: {
+					id: "industrialforegoing:dissolution_chamber"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000062A"
+				type: "command"
+				title: "Rare Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:rare_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			title: "Addons"
+			icon: {
+				id: "industrialforegoing:range_addon11"
+				Count: 1b
+				tag: {
+					TitaniumAugment: {
+						Range: 11.0f
+					}
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -1.5d
+			y: 2.5d
+			description: ["Addons can increase the range, speed, or efficiency of most machines. As default operating areas are usually quite small, addons are important!"]
+			dependencies: [
+				"0000000000000054"
+				"0000000000000057"
+			]
+			id: "0000000000000076"
+			tasks: [{
+				id: "0000000000000077"
+				type: "item"
+				item: {
+					id: "industrialforegoing:range_addon3"
+					Count: 1b
+					tag: {
+						TitaniumAugment: {
+							Range: 3.0f
+						}
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000631"
+				type: "command"
+				title: "Rare Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:rare_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 2.5d
+			description: ["The third and currently final tier of machine frame. Used in a variety of powerful automation machines."]
+			dependencies: [
+				"000000000000004E"
+				"0000000000000050"
+				"0000000000000051"
+				"0000000000000053"
+			]
+			id: "0000000000000078"
+			tasks: [{
+				id: "0000000000000079"
+				type: "item"
+				item: {
+					id: "industrialforegoing:machine_frame_advanced"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000633"
+				type: "command"
+				title: "Epic Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:epic_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.0d
+			description: ["The Mob Crusher kills mobs, producing Essence and normal mob drops."]
+			dependencies: ["0000000000000078"]
+			id: "000000000000007A"
+			tasks: [{
+				id: "000000000000007B"
+				type: "item"
+				item: {
+					id: "industrialforegoing:mob_crusher"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000636"
+				type: "command"
+				title: "Epic Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:epic_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.0d
+			description: ["This machine, when provided with power and Essence, will apply random enchantments to items placed inside. Essence can be generated by using the Resourceful Furnace or Mob Crusher."]
+			dependencies: ["0000000000000078"]
+			id: "000000000000007C"
+			tasks: [{
+				id: "000000000000007D"
+				type: "item"
+				item: {
+					id: "industrialforegoing:enchantment_factory"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000635"
+				type: "command"
+				title: "Epic Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:epic_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.0d
+			description: ["This machine is a one-stop shop for cobblestone processing. It can generate cobblestone from lava/water, then perform up to three sequential operations to craft products like stone bricks or sand."]
+			dependencies: ["0000000000000078"]
+			id: "000000000000007E"
+			tasks: [{
+				id: "000000000000007F"
+				type: "item"
+				item: {
+					id: "industrialforegoing:material_stonework_factory"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000637"
+				type: "command"
+				title: "Epic Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:epic_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_epic"
+				player_command: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			description: ["The Bioreactor can process up to nine different types of plant-based items at once to make Biofuel; the more slots that are filled, the higher the efficiency. Biofuel can be used to make power with the Biofuel Generator, or to run Infinity tools."]
+			dependencies: ["000000000000004F"]
+			id: "0000000000000080"
+			tasks: [{
+				id: "0000000000000081"
+				type: "item"
+				item: {
+					id: "industrialforegoing:bioreactor"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "000000000000062C"
+					type: "item"
+					item: {
+						id: "minecraft:beetroot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "000000000000062D"
+					type: "item"
+					item: {
+						id: "minecraft:carrot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 8
+				}
+				{
+					id: "000000000000062E"
+					type: "item"
+					item: {
+						id: "minecraft:potato"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 8
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			description: ["The Infinity Drill is powered by Biofuel and can mine increasingly large areas depending on its RF charge level. If you want more DESTRUCTIVE POWER, the Infinity Hammer mines out cubes and doubles as a weapon."]
+			dependencies: [
+				"0000000000000054"
+				"0000000000000050"
+				"0000000000000057"
+				"0000000000000053"
+			]
+			id: "0000000000000082"
+			tasks: [{
+				id: "0000000000000083"
+				type: "item"
+				item: {
+					id: "industrialforegoing:infinity_drill"
+					Count: 1b
+					tag: {
+						CanCharge: 1
+						Special: 0
+						Selected: "POOR"
+						Energy: 0
+						Fluid: {
+							FluidName: "biofuel"
+							Amount: 0
+						}
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000627"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								-1604261307
+								2068662071
+								-1661464692
+								2021809473
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "industrialforegoing:biofuel"
+									Amount: 14000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+						}
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			description: ["The Composter turns Sewage into Industrial Fertilizer, which can be used in the Plant Fertilizer (or by hand) in place of bonemeal."]
+			dependencies: ["0000000000000055"]
+			id: "0000000000000084"
+			tasks: [{
+				id: "0000000000000085"
+				type: "item"
+				item: {
+					id: "industrialforegoing:sewage_composter"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000630"
+				type: "command"
+				title: "Rare Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:rare_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			description: ["The Plant Fertilizer automatically fertilizes plants (believe it or not) with Bonemeal or Industrial Fertilizer."]
+			dependencies: [
+				"000000000000004E"
+				"0000000000000051"
+			]
+			id: "0000000000000086"
+			tasks: [{
+				id: "0000000000000087"
+				type: "item"
+				item: {
+					id: "industrialforegoing:plant_fertilizer"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000000634"
+				type: "item"
+				item: {
+					id: "industrialforegoing:fertilizer"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				count: 16
+			}]
+		}
+		{
+			x: -3.0d
+			y: 1.0d
+			description: ["IF conveyor belts move entities (not items, unlike IE belts). Several types of conveyor belt upgrades are available; see JEI."]
+			dependencies: [
+				"000000000000004C"
+				"000000000000004F"
+			]
+			id: "0000000000000088"
+			tasks: [{
+				id: "0000000000000089"
+				type: "item"
+				item: {
+					id: "industrialforegoing:conveyor"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "000000000000062B"
+				type: "command"
+				title: "Rare Industrial Foregoing Loot Box"
+				icon: {
+					id: "kubejs:rare_lootbox"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				command: "/execute at @p run loot spawn ~ ~1 ~ loot enigmatica:chests/quest_industrial_foregoing_loot_rare"
+				player_command: false
+			}]
+		}
+	]
+}

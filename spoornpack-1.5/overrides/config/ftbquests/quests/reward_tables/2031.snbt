@@ -1,0 +1,31 @@
+{
+	id: "00000000000007EF"
+	order_index: 21
+	title: "Epic Blood Magic Loot Box"
+	icon: {
+		id: "kubejs:epic_lootbox"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "bloodmagic:speedrune", count: 4 }
+		{ item: "bloodmagic:sacrificerune", count: 4 }
+		{ item: "bloodmagic:selfsacrificerune", count: 4 }
+		{ item: "bloodmagic:altarcapacityrune", count: 4 }
+		{ item: "bloodmagic:bettercapacityrune", count: 4 }
+		{ item: "bloodmagic:ritualstone", count: 24 }
+		{ item: "bloodmagic:stonebrickpath", count: 12 }
+		{ item: "bloodmagic:woodbrickpath", count: 12 }
+		{ item: "bloodmagic:wornstonebrickpath", count: 12 }
+	]
+}

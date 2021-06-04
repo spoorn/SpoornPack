@@ -1,0 +1,1521 @@
+{
+	id: "0000000000001019"
+	group: ""
+	order_index: 4
+	filename: "better_than_diamond"
+	title: "Better Than Diamond"
+	icon: {
+		id: "oresabovediamonds:amethyst"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "What's better than diamond"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Gotta collect them all!"
+			description: [
+				"Diamond armor is nice, but it's not the best thing in this modpack."
+				"There are 21 other options for armor that will give you either the same stats or better as diamond armor."
+				"The armor listed in this section are the rare kind. "
+				"Explore the JEI to see the other options. "
+			]
+			dependencies: ["000000000000101F"]
+			id: "0000000000001022"
+			tasks: [{
+				id: "0000000000001023"
+				type: "checkmark"
+				title: "Whats better than Diamond?"
+				icon: {
+					id: "botania:cosmetic_questgiver_mark"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "0000000000001024"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Fire Dragonsteel"
+			x: -1.5d
+			y: 2.5d
+			dependencies: ["0000000000001022"]
+			id: "0000000000001025"
+			tasks: [
+				{
+					id: "0000000000001027"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001028"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001029"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000102A"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000001050"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "0000000000001051"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_fire_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "0000000000000041"
+					type: "item"
+					item: {
+						id: "farmersdelight:shepherds_pie"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Refined Obsidian"
+			x: 2.5d
+			y: 1.5d
+			dependencies: ["0000000000001022"]
+			id: "000000000000102D"
+			tasks: [
+				{
+					id: "0000000000001085"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001086"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001087"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001088"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000001083"
+					type: "item"
+					item: {
+						id: "mekanism:ingot_refined_obsidian"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "0000000000001084"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "0000000000001089"
+					type: "item"
+					item: {
+						id: "mekanismtools:refined_obsidian_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Ametrine"
+			x: -2.5d
+			y: -1.5d
+			dependencies: ["0000000000001022"]
+			id: "000000000000102F"
+			tasks: [
+				{
+					id: "000000000000105A"
+					type: "item"
+					item: {
+						id: "byg:ametrine_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000105B"
+					type: "item"
+					item: {
+						id: "byg:ametrine_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000105C"
+					type: "item"
+					item: {
+						id: "byg:ametrine_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000105D"
+					type: "item"
+					item: {
+						id: "byg:ametrine_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000105E"
+					type: "item"
+					item: {
+						id: "byg:ametrine_horse_armor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000105F"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "0000000000001060"
+					type: "item"
+					item: {
+						id: "byg:ametrine_gems"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 6
+				}
+				{
+					id: "0000000000001061"
+					type: "xp"
+					xp: 500
+				}
+			]
+		}
+		{
+			title: "Aeternium"
+			x: -3.0d
+			y: 0.0d
+			dependencies: ["0000000000001022"]
+			id: "0000000000001031"
+			tasks: [
+				{
+					id: "0000000000001054"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001055"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001056"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001057"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000001058"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "0000000000001059"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "0000000000000047"
+					type: "item"
+					item: {
+						id: "farmersdelight:baked_cod_stew"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Crystalite"
+			x: 3.0d
+			y: 0.0d
+			dependencies: ["0000000000001022"]
+			id: "0000000000001033"
+			tasks: [
+				{
+					id: "000000000000107B"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000107C"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000107D"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000107E"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000001081"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "0000000000001082"
+					type: "item"
+					item: {
+						id: "betterendforge:crystal_shards"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "0000000000000023"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:chocolaterollitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 15
+				}
+			]
+		}
+		{
+			title: "Ice Dragonsteel"
+			x: 0.0d
+			y: 3.0d
+			dependencies: ["0000000000001022"]
+			id: "0000000000001035"
+			tasks: [
+				{
+					id: "0000000000001043"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001044"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001045"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001046"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000104D"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "000000000000104E"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_ice_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "000000000000003F"
+					type: "item"
+					item: {
+						id: "farmersdelight:roast_chicken"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Lightning Dragonsteel"
+			x: 1.5d
+			y: 2.5d
+			dependencies: ["0000000000001022"]
+			id: "0000000000001037"
+			tasks: [
+				{
+					id: "000000000000108D"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000108E"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000108F"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001090"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000108B"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "000000000000108C"
+					type: "item"
+					item: {
+						id: "iceandfire:dragonsteel_lightning_ingot"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "000000000000003E"
+					type: "item"
+					item: {
+						id: "farmersdelight:honey_glazed_ham"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 10
+				}
+			]
+		}
+		{
+			title: "Amethyst"
+			x: -1.5d
+			y: -2.5d
+			dependencies: ["0000000000001022"]
+			id: "0000000000001039"
+			tasks: [
+				{
+					id: "0000000000001062"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:amethyst_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001063"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:amethyst_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001064"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:amethyst_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001065"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:amethyst_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000001066"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:amethyst"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "0000000000001067"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "Black Opal"
+			x: 1.5d
+			y: -2.5d
+			dependencies: ["0000000000001022"]
+			id: "000000000000103B"
+			tasks: [
+				{
+					id: "0000000000001071"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:black_opal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001072"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:black_opal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001073"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:black_opal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001074"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:black_opal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000106F"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:black_opal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "0000000000001070"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "Netherite Opal"
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["0000000000001022"]
+			id: "000000000000103D"
+			tasks: [
+				{
+					id: "0000000000001068"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:netherite_opal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001069"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:netherite_opal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000106A"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:netherite_opal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000106B"
+					type: "item"
+					item: {
+						id: "oresabovediamonds:netherite_opal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "000000000000106C"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+				{
+					id: "000000000000106E"
+					type: "item"
+					item: {
+						id: "jaopca:storage_blocks.black_opal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+				{
+					id: "000000000000000A"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:friedchickenitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 15
+				}
+			]
+		}
+		{
+			title: "Crystallized Obsidian"
+			x: 2.5d
+			y: -1.5d
+			dependencies: ["0000000000001022"]
+			id: "000000000000103F"
+			tasks: [
+				{
+					id: "0000000000001075"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001076"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001077"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001078"
+					type: "item"
+					item: {
+						id: "cyclic:crystal_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000001079"
+					type: "item"
+					item: {
+						id: "cyclic:gem_obsidian"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "000000000000107A"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+		{
+			title: "Onyx"
+			x: -2.5d
+			y: 1.5d
+			dependencies: ["0000000000001022"]
+			id: "0000000000001041"
+			tasks: [
+				{
+					id: "0000000000001047"
+					type: "item"
+					item: {
+						id: "simpleores:onyx_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001048"
+					type: "item"
+					item: {
+						id: "simpleores:onyx_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000001049"
+					type: "item"
+					item: {
+						id: "simpleores:onyx_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "000000000000104A"
+					type: "item"
+					item: {
+						id: "simpleores:onyx_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0000000000001052"
+					type: "item"
+					item: {
+						id: "simpleores:onyx_gem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 12
+				}
+				{
+					id: "0000000000001053"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+		}
+	]
+}

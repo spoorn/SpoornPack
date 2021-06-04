@@ -1,0 +1,11 @@
+{
+	id: "0000000000000B69"
+	group: ""
+	order_index: 12
+	filename: "expert__bragging_rights"
+	title: "Expert - Bragging Rights"
+	icon: "create:creative_crate"
+	always_invisible: true
+	default_quest_shape: ""
+	quests: [ ]
+}

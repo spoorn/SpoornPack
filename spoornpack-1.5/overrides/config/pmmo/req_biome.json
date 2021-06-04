@@ -1,0 +1,7 @@
+{
+	"somemod:biome":
+	{
+		"swimming": 25,
+		"endurance": 15
+	}
+}

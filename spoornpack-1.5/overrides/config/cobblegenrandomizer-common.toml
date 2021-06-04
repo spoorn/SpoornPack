@@ -1,0 +1,33 @@
+
+#General settings
+[general]
+	#Use config instead of datapack
+	use_config = true
+
+	#List settings
+	#Syntax: ["modid:block|weight"]
+	#Example: ["minecraft:stone|2","minecraft:dirt|1"]
+	#Forge tags are supported
+	[general.lists]
+		#Basalt gen
+		block_list_basalt = ["minecraft:basalt|1", "minecraft:basalt|1"]
+		#Cobble gen
+		block_list_cobble = ["minecraft:cobblestone|1", "minecraft:cobblestone|1"]
+		#Stone gen
+		block_list_stone = ["minecraft:stone|1", "minecraft:stone|1"]
+
+		#Custom settings
+		[general.lists.custom]
+			#Custom generators
+			#Syntax: [gen]
+			#Gen: [type, block, list]
+			#Type: cobblestone, stone
+			#Block: resource location of the block below the generated block
+			#List: see List settings
+			#Examples:
+			#custom_generators = [
+			#   ["cobblestone", "minecraft:diamond_block", ["minecraft:diamond_block"]],
+			#   ["cobblestone", "minecraft:dirt", ["forge:dirt"]],
+			#   ["cobblestone", "minecraft:white_wool", ["minecraft:wool"]]]
+			custom_generators = [["cobblestone", "minecraft:iron_block", ["enigmatica:cobbleworks/cobblestone"]], ["cobblestone", "embellishcraft:basalt_cobblestone", ["embellishcraft:basalt_cobblestone"]], ["cobblestone", "embellishcraft:gneiss_cobblestone", ["embellishcraft:gneiss_cobblestone"]], ["cobblestone", "embellishcraft:jade_cobblestone", ["embellishcraft:jade_cobblestone"]], ["cobblestone", "embellishcraft:larvikite_cobblestone", ["embellishcraft:larvikite_cobblestone"]], ["cobblestone", "embellishcraft:marble_cobblestone", ["embellishcraft:marble_cobblestone"]], ["cobblestone", "embellishcraft:slate_cobblestone", ["embellishcraft:slate_cobblestone"]], ["cobblestone", "minecraft:blackstone", ["minecraft:blackstone"]], ["stone", "minecraft:diamond_block", ["enigmatica:cobbleworks/stone"]], ["stone", "minecraft:andesite", ["minecraft:andesite"]], ["stone", "minecraft:diorite", ["minecraft:diorite"]], ["stone", "minecraft:granite", ["minecraft:granite"]], ["stone", "embellishcraft:basalt", ["embellishcraft:basalt"]], ["stone", "embellishcraft:gneiss", ["embellishcraft:gneiss"]], ["stone", "embellishcraft:jade", ["embellishcraft:jade"]], ["stone", "embellishcraft:larvikite", ["embellishcraft:larvikite"]], ["stone", "embellishcraft:marble", ["embellishcraft:marble"]], ["stone", "embellishcraft:slate", ["embellishcraft:slate"]], ["stone", "minecraft:red_sandstone", ["minecraft:red_sandstone"]], ["stone", "minecraft:sandstone", ["minecraft:sandstone"]]]
+

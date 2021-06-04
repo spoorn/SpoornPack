@@ -1,0 +1,45 @@
+
+["Throwable Slime Balls"]
+	#Thrown Slime Balls will severely slow entities that are hit!
+	#Range: 0 ~ 1
+	"(1=Enabled, 0=Disabled)" = 1
+
+["Slimy Stick Knockback Power"]
+	#Default Value: 10
+	#Range: 0 ~ 20
+	Value = 10
+
+["Slimes Drop Armor and Tools"]
+	#Range: 0 ~ 1
+	"(1=Enabled, 0=Disabled)" = 1
+
+["Slimes Drop Slime Berries"]
+	#Range: 0 ~ 1
+	"(1=Enabled, 0=Disabled)" = 1
+
+["Slimes Drop Slimy Apples"]
+	#Range: 0 ~ 1
+	"(1=Enabled, 0=Disabled)" = 1
+
+["Slimes Drop Slimy Fish"]
+	#Range: 0 ~ 1
+	"(1=Enabled, 0=Disabled)" = 1
+
+["Slime Fish can be Fished Up on Swamps"]
+	#Range: 0 ~ 1
+	"(1=Enabled, 0=Disabled)" = 1
+
+["Slime Carpet negates fall damage"]
+	#Range: 0 ~ 1
+	"(1=Enabled, 0=Disabled)" = 1
+
+["Slime Pad Jump Power"]
+	#Default Value: 11
+	#Range: 0 ~ 50
+	Value = 11
+
+["Slime Pad Jump Power + Redstone"]
+	#Default Value: 18
+	#Range: 0 ~ 50
+	Value = 18
+

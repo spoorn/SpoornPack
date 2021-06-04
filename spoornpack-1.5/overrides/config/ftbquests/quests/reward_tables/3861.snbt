@@ -1,0 +1,32 @@
+{
+	id: "0000000000000F15"
+	order_index: 51
+	title: "Epic Loot"
+	icon: {
+		id: "minecraft:emerald"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 1
+	rewards: [{
+		item: {
+			id: "kubejs:epic_lootbox"
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_gear:weapon": {
+					lastFiredTime: 0L
+					fuseShotCounter: 0
+					crossbowChargeTime: 0
+					bowChargeTime: 0.0f
+				}
+			}
+		}
+	}]
+}

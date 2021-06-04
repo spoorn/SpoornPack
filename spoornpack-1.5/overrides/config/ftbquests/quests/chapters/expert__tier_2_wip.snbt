@@ -1,0 +1,10 @@
+{
+	id: "0000000000000B67"
+	group: ""
+	order_index: 14
+	filename: "expert__tier_2_wip"
+	title: "Expert - Tier 2 WIP"
+	always_invisible: true
+	default_quest_shape: ""
+	quests: [ ]
+}

@@ -1,0 +1,26 @@
+{
+	id: "00000000000000B7"
+	order_index: 15
+	title: "Epic PNC:R Loot Box"
+	icon: {
+		id: "kubejs:epic_lootbox"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 2
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "pneumaticcraft:speed_upgrade", count: 2, weight: 2 }
+		{ item: "pneumaticcraft:advanced_pcb", weight: 2 }
+		{ item: "pneumaticcraft:volume_upgrade", count: 4, weight: 2 }
+		{ item: "pneumaticcraft:advanced_pressure_tube", count: 16 }
+	]
+}

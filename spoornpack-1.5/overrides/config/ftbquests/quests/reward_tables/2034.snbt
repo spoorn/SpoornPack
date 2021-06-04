@@ -1,0 +1,1310 @@
+{
+	id: "00000000000007F2"
+	order_index: 24
+	title: "Epic Resourceful Bees Loot Box"
+	icon: {
+		id: "kubejs:epic_lootbox"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					Entity: "resourcefulbees:lapis_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: {
+						"naturesaura:time_alive": 40
+					}
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									430561632
+									-1286320175
+									-1190363091
+									-2117531770
+								]
+								Amount: 0.030548682081909265d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "lapis"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					ForgeCaps: {
+						"structure_gel:gel_entity": {
+							portal: "structure_gel:empty"
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						8849479
+						844778002
+						-1866845089
+						-2019090232
+					]
+					Age: 0
+					TicksSincePollination: 16
+					AngerTime: 0
+					Motion: [
+						0.0d
+						-0.0784000015258789d
+						0.0d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#345ec3"
+					LeftHanded: 0b
+					Air: 300s
+					OnGround: 1b
+					Rotation: [
+						114.32849f
+						0.0f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						93.5d
+						82.5d
+						-116.5d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					Entity: "resourcefulbees:pigman_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: {
+						"naturesaura:time_alive": 40
+					}
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									597960220
+									-327661581
+									-1267830748
+									1772569299
+								]
+								Amount: -0.019736818079820487d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "pigman"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					ForgeCaps: {
+						"structure_gel:gel_entity": {
+							portal: "structure_gel:empty"
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						-2018514627
+						2068793738
+						-1729941754
+						393700331
+					]
+					Age: 0
+					TicksSincePollination: 16
+					AngerTime: 0
+					Motion: [
+						0.0d
+						-0.0784000015258789d
+						0.0d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#885956"
+					LeftHanded: 1b
+					Air: 300s
+					OnGround: 1b
+					Rotation: [
+						-14.275696f
+						0.0f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						91.5d
+						82.5d
+						-116.5d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					Entity: "resourcefulbees:obsidian_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: {
+						"naturesaura:time_alive": 40
+					}
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									1896959653
+									-1267908223
+									-1664980160
+									1417694414
+								]
+								Amount: -0.013314845678952851d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "obsidian"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					ForgeCaps: {
+						"structure_gel:gel_entity": {
+							portal: "structure_gel:empty"
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						-1279081246
+						1715486971
+						-1582167596
+						-1825003670
+					]
+					Age: 0
+					TicksSincePollination: 15
+					AngerTime: 0
+					Motion: [
+						0.0d
+						-0.0784000015258789d
+						0.0d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#663399"
+					LeftHanded: 1b
+					Air: 300s
+					OnGround: 1b
+					Rotation: [
+						-104.97218f
+						0.0f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						92.5d
+						82.5d
+						-116.5d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					Entity: "resourcefulbees:blaze_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: { }
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									-1723845324
+									-487832759
+									-1907845729
+									-1118786055
+								]
+								Amount: -0.11251533095718043d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "blaze"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					ForgeCaps: {
+						"structure_gel:gel_entity": {
+							portal: "structure_gel:empty"
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						-581167871
+						-1550433063
+						-1854939199
+						-53356043
+					]
+					Age: 0
+					TicksSincePollination: 12
+					AngerTime: 0
+					Motion: [
+						0.0d
+						-0.0784000015258789d
+						0.0d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#ff4500"
+					LeftHanded: 0b
+					Air: 300s
+					OnGround: 1b
+					Rotation: [
+						95.94287f
+						0.0f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						91.5d
+						82.5d
+						-116.5d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					Entity: "resourcefulbees:nether_quartz_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: { }
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									2069761863
+									-1974450039
+									-1332587149
+									788772581
+								]
+								Amount: 0.004435865221507377d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "nether_quartz"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					ForgeCaps: {
+						"structure_gel:gel_entity": {
+							portal: "structure_gel:empty"
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						766701581
+						1367687438
+						-1783737777
+						2024356951
+					]
+					Age: 0
+					TicksSincePollination: 13
+					AngerTime: 0
+					Motion: [
+						0.0d
+						-0.0784000015258789d
+						0.0d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#D4CABA"
+					LeftHanded: 0b
+					Air: 300s
+					OnGround: 1b
+					Rotation: [
+						-141.63295f
+						-38.18873f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						91.5d
+						82.5d
+						-116.5d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					Entity: "resourcefulbees:redstone_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: {
+						"naturesaura:time_alive": 40
+					}
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									1341026862
+									-1320991644
+									-1721502208
+									1785350270
+								]
+								Amount: -0.02171583473853723d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "redstone"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					ForgeCaps: {
+						"structure_gel:gel_entity": {
+							portal: "structure_gel:empty"
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						1116904453
+						419972642
+						-1399259999
+						90032775
+					]
+					Age: 0
+					TicksSincePollination: 16
+					AngerTime: 0
+					Motion: [
+						0.0d
+						-0.0784000015258789d
+						0.0d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#aa0f01"
+					LeftHanded: 0b
+					Air: 300s
+					OnGround: 1b
+					Rotation: [
+						-0.7652893f
+						-40.0f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						92.5d
+						82.5d
+						-116.5d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					Entity: "resourcefulbees:slimy_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: {
+						"naturesaura:time_alive": 40
+					}
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									-1798378031
+									-782940862
+									-1646942087
+									-1274928609
+								]
+								Amount: -0.013606562186442081d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "slimy"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					ForgeCaps: {
+						"structure_gel:gel_entity": {
+							portal: "structure_gel:empty"
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						-2106735075
+						-1393999531
+						-1464116735
+						-631421951
+					]
+					Age: 0
+					TicksSincePollination: 16
+					AngerTime: 0
+					Motion: [
+						0.0d
+						-0.0784000015258789d
+						0.0d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#73c262"
+					LeftHanded: 0b
+					Air: 300s
+					OnGround: 1b
+					Rotation: [
+						-76.92932f
+						-39.664703f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						92.5d
+						82.5d
+						-116.5d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					Entity: "resourcefulbees:gold_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: {
+						"naturesaura:time_alive": 40
+					}
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									-1544817110
+									-1553904909
+									-1974379402
+									1770924971
+								]
+								Amount: -0.04988226533241591d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "gold"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					ForgeCaps: {
+						"structure_gel:gel_entity": {
+							portal: "structure_gel:empty"
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						-1656555906
+						-1850521131
+						-2114768571
+						2015954931
+					]
+					Age: 0
+					TicksSincePollination: 16
+					AngerTime: 0
+					Motion: [
+						0.0d
+						-0.0784000015258789d
+						0.0d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#FFDC00"
+					LeftHanded: 0b
+					Air: 300s
+					OnGround: 1b
+					Rotation: [
+						18.148878f
+						0.0f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						92.5d
+						82.5d
+						-116.5d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "resourcefulbees:bee_jar"
+				Count: 1b
+				tag: {
+					NoGravity: 1b
+					Entity: "resourcefulbees:iron_bee"
+					Brain: {
+						memories: { }
+					}
+					HurtByTimestamp: 0
+					ForgeData: { }
+					HasStung: 0b
+					Attributes: [
+						{
+							Base: 0.30000001192092896d
+							Name: "minecraft:generic.movement_speed"
+						}
+						{
+							Base: 48.0d
+							Modifiers: [{
+								Operation: 1
+								UUID: [I;
+									-1207541730
+									-1263776829
+									-1439313122
+									-2011209013
+								]
+								Amount: 0.03776067512895905d
+								Name: "Random spawn bonus"
+							}]
+							Name: "minecraft:generic.follow_range"
+						}
+						{
+							Base: 0.08d
+							Name: "forge:entity_gravity"
+						}
+						{
+							Base: 0.0d
+							Name: "minecraft:generic.knockback_resistance"
+						}
+						{
+							Base: 1.0d
+							Name: "forge:swim_speed"
+						}
+					]
+					Invulnerable: 0b
+					FallFlying: 0b
+					ForcedAge: 0
+					PortalCooldown: 0
+					AbsorptionAmount: 0.0f
+					BeeType: "iron"
+					FallDistance: 0.0f
+					InLove: 0
+					CanUpdate: 1b
+					DeathTime: 0s
+					ForgeCaps: {
+						"structure_gel:gel_entity": {
+							portal: "structure_gel:empty"
+						}
+						"citadel:extended_entity_data_citadel": { }
+						"mekanism:radiation": {
+							radiation: 0.0d
+						}
+						"pneumaticcraft:hacking": { }
+						"shrink:shrunk": {
+							width: 0.7f
+							isshrinking: 0b
+							defaulteyeheight: 0.3f
+							fixed: 0b
+							isshrunk: 0b
+							height: 0.6f
+						}
+					}
+					HandDropChances: [
+						0.085f
+						0.085f
+					]
+					CannotEnterHiveTicks: 0
+					PersistenceRequired: 0b
+					FeedCount: 0
+					UUID: [I;
+						287125043
+						-76594110
+						-1156608721
+						2013250607
+					]
+					Age: 0
+					TicksSincePollination: 14
+					AngerTime: 0
+					Motion: [
+						-0.061626914871871934d
+						0.14485856115182605d
+						0.061626914871871934d
+					]
+					Health: 10.0f
+					HasNectar: 0b
+					Color: "#ffcc99"
+					LeftHanded: 0b
+					Air: 300s
+					OnGround: 0b
+					Rotation: [
+						45.0f
+						0.0f
+					]
+					HandItems: [
+						{ }
+						{ }
+					]
+					ArmorDropChances: [
+						0.085f
+						0.085f
+						0.085f
+						0.085f
+					]
+					Pos: [
+						92.89120923709993d
+						83.65707319191107d
+						-115.89120923709993d
+					]
+					Fire: -1s
+					ArmorItems: [
+						{ }
+						{ }
+						{ }
+						{ }
+					]
+					CropsGrownSincePollination: 0
+					CanPickUpLoot: 0b
+					HurtTime: 0s
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "resourcefulbees:centrifuge_casing"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 16
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	id: "00000000000005AA"
+	order_index: 2
+	title: "Refined Storage Loot Box"
+	icon: {
+		id: "kubejs:rare_lootbox"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			count: 2
+		}
+		{
+			count: 16
+		}
+		{
+			count: 8
+		}
+		{
+			count: 4
+		}
+		{
+			count: 2
+		}
+		{
+			count: 4
+		}
+		{ }
+		{ }
+		{
+			count: 2
+		}
+		{
+			count: 8
+		}
+	]
+}

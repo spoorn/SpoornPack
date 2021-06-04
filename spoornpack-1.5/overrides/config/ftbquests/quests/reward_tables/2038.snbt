@@ -1,0 +1,89 @@
+{
+	id: "00000000000007F6"
+	order_index: 28
+	title: "Astral Epic Loot Export"
+	loot_size: 1
+	rewards: [
+		{ item: "astralsorcery:colored_lens_growth" }
+		{ item: "astralsorcery:colored_lens_damage" }
+		{ item: "astralsorcery:colored_lens_break" }
+		{ item: "astralsorcery:colored_lens_spectral" }
+		{ item: "astralsorcery:colored_lens_regeneration" }
+		{ item: "astralsorcery:colored_lens_fire" }
+		{ item: "astralsorcery:colored_lens_push" }
+		{
+			item: {
+				id: "astralsorcery:lens"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+			count: 3
+		}
+		{
+			item: {
+				id: "astralsorcery:prism"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanism:basic_fluid_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						FluidTanks: [{
+							Tank: 0b
+							stored: {
+								FluidName: "astralsorcery:liquid_starlight"
+								Amount: 14000
+							}
+						}]
+					}
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+	]
+}

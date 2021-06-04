@@ -1,0 +1,163 @@
+{
+	id: "00000000000007EC"
+	order_index: 18
+	title: "Epic Mekanism Loot Box"
+	icon: {
+		id: "kubejs:epic_lootbox"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 2
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{
+			item: {
+				id: "mekanism:advanced_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								infuseTypeName: "mekanism:carbon"
+								amount: 5120L
+							}
+						}]
+					}
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanism:advanced_chemical_tank"
+				Count: 1b
+				tag: {
+					mekData: {
+						InfusionTanks: [{
+							Tank: 0b
+							stored: {
+								infuseTypeName: "mekanism:redstone"
+								amount: 5120L
+							}
+						}]
+					}
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+		{
+			item: {
+				id: "mekanism:upgrade_speed"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 4
+			weight: 2
+		}
+		{
+			item: {
+				id: "mekanism:upgrade_energy"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 4
+			weight: 2
+		}
+		{
+			item: {
+				id: "mekanism:advanced_universal_cable"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "mekanism:advanced_mechanical_pipe"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "mekanism:advanced_pressurized_tube"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			count: 16
+		}
+		{
+			item: {
+				id: "mekanism:ultimate_tier_installer"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+		}
+	]
+}

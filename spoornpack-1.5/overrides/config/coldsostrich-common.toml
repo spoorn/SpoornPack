@@ -1,0 +1,14 @@
+
+["Ostrich Spawning"]
+	"Ostriches Can Lay Eggs" = true
+	#Range: 0 ~ 100
+	"Spawn Weight" = 10
+	#Range: 0 ~ 20
+	"Max Group Size" = 6
+
+	["Ostrich Spawning"."Ostriches Can Spawn Naturally in Savannah Biomes"]
+		 = true
+
+	["Ostrich Spawning"."Ostriches Can Spawn Naturally in Plains Biomes"]
+		 = false
+

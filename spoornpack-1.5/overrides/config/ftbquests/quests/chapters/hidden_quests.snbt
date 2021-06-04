@@ -1,0 +1,198 @@
+{
+	id: "0000000000000328"
+	group: ""
+	order_index: 17
+	filename: "hidden_quests"
+	title: "Hidden_Quests"
+	icon: {
+		id: "minecraft:experience_bottle"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	always_invisible: true
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Visit The End"
+			x: -10.0d
+			y: -8.0d
+			description: ["Visit The End"]
+			id: "0000000000000329"
+			tasks: [{
+				id: "000000000000032A"
+				type: "dimension"
+				dimension: "minecraft:the_end"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			id: "000000000000046C"
+			tasks: [{
+				id: "000000000000046D"
+				type: "advancement"
+				icon: {
+					id: "minecraft:diamond"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				advancement: "minecraft:story/mine_diamond"
+				criterion: ""
+			}]
+		}
+		{
+			x: -7.0d
+			y: -8.0d
+			id: "000000000000046E"
+			tasks: [{
+				id: "000000000000046F"
+				type: "advancement"
+				advancement: "minecraft:story/smelt_iron"
+				criterion: ""
+			}]
+		}
+		{
+			x: -5.5d
+			y: -8.0d
+			id: "00000000000004B3"
+			tasks: [{
+				id: "00000000000004B4"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunes_bounty"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -10.0d
+			y: -6.5d
+			id: "0000000000000856"
+			tasks: [{
+				id: "0000000000000857"
+				type: "advancement"
+				advancement: "tetra:spelunking/ancient_ruins"
+				criterion: ""
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.5d
+			description: [
+				"Only here to use as a hidden dependency for the powah power challenge quest, so we can hide it until it's actually completable"
+				""
+				"Do not delete before that's the case"
+			]
+			id: "0000000000000D38"
+			tasks: [{
+				id: "0000000000000D39"
+				type: "checkmark"
+				title: "PowahChallengeTMP"
+				icon: {
+					id: "powah:battery_nitro"
+					Count: 1b
+					tag: { }
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Full Set of Netherite"
+			x: -7.0d
+			y: -6.5d
+			id: "0000000000001012"
+			tasks: [{
+				id: "0000000000001014"
+				type: "advancement"
+				icon: {
+					id: "minecraft:netherite_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				advancement: "minecraft:nether/netherite_armor"
+				criterion: ""
+			}]
+		}
+		{
+			title: "Full Set of Diamond"
+			icon: {
+				id: "minecraft:diamond_chestplate"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -5.5d
+			y: -6.5d
+			id: "000000000000101F"
+			tasks: [{
+				id: "0000000000001021"
+				type: "advancement"
+				icon: {
+					id: "minecraft:diamond_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+				advancement: "minecraft:story/shiny_gear"
+				criterion: ""
+			}]
+		}
+	]
+}

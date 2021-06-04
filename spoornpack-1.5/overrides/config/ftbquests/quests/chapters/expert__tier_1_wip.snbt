@@ -1,0 +1,11 @@
+{
+	id: "0000000000000B66"
+	group: ""
+	order_index: 13
+	filename: "expert__tier_1_wip"
+	title: "Expert - Tier 1 WIP"
+	icon: "create:cogwheel"
+	always_invisible: true
+	default_quest_shape: ""
+	quests: [ ]
+}

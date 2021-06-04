@@ -1,0 +1,18 @@
+{
+    "x": 10,
+    "y": 145,
+    "width": 130,
+    "height": 20,
+    "langKey": "packmenu.spoornpack.multiplayer",
+    "action": "OPEN_GUI",
+    "data": "MULTIPLAYER",
+    "u": 0,
+    "v": 0,
+    "hoverU": 0,
+    "hoverV": 20,
+    "texWidth": 175,
+    "texHeight": 40,
+    "fontColor": 16777215,
+    "hoverFontColor": 10861513,
+    "anchor": "TOP_LEFT"
+}

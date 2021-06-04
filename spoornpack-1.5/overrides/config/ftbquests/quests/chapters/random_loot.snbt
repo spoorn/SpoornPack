@@ -1,0 +1,232 @@
+{
+	id: "0000000000000EE2"
+	group: ""
+	order_index: 25
+	filename: "random_loot"
+	title: "Random Loot"
+	icon: {
+		id: "randomloot:titan_case"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Basic Case"
+			icon: {
+				id: "randomloot:basic_case"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -9.0d
+			y: -1.5d
+			shape: "octagon"
+			description: [
+				"The Random Loot mod adds loot cases that can drop from mobs, chests, etc.  The cases give you special tools with randomized stats that are upgradeable."
+				""
+				""
+				"The Tool Editor reward is similar to an Anvil and lets you upgrade your Random Loot tools with upgrade items.  Random Cluster is used to upgrade your tool.  Mysterious essence gives your tool enchantment-like stats.  You can also use Smithing Table"
+				""
+				""
+				"You can repair tools with Anvil and Random Clusters"
+			]
+			id: "0000000000000EE4"
+			tasks: [{
+				id: "0000000000000EFB"
+				type: "checkmark"
+			}]
+			rewards: [
+				{
+					id: "0000000000000EEA"
+					type: "item"
+					item: {
+						id: "randomloot:editor"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000EEE"
+					type: "item"
+					item: {
+						id: "randomloot:random_cluster"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000EEF"
+					type: "item"
+					item: {
+						id: "randomloot:trait_holder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000EFA"
+					type: "item"
+					item: {
+						id: "randomloot:basic_case"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			description: ["Golden case is even more rare"]
+			id: "0000000000000EE6"
+			tasks: [{
+				id: "0000000000000EE7"
+				type: "item"
+				item: {
+					id: "randomloot:golden_case"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000EF2"
+					type: "item"
+					item: {
+						id: "randomloot:random_cluster"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000EF3"
+					type: "item"
+					item: {
+						id: "randomloot:trait_holder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			description: ["Titan case is more rare than Basic case"]
+			id: "0000000000000EE8"
+			tasks: [{
+				id: "0000000000000EE9"
+				type: "item"
+				item: {
+					id: "randomloot:titan_case"
+					Count: 1b
+					ForgeCaps: {
+						"dungeons_gear:weapon": {
+							lastFiredTime: 0L
+							fuseShotCounter: 0
+							crossbowChargeTime: 0
+							bowChargeTime: 0.0f
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0000000000000EF0"
+					type: "item"
+					item: {
+						id: "randomloot:random_cluster"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+				{
+					id: "0000000000000EF1"
+					type: "item"
+					item: {
+						id: "randomloot:trait_holder"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

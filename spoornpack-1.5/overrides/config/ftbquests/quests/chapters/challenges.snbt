@@ -1,0 +1,402 @@
+{
+	id: "0000000000000098"
+	group: ""
+	order_index: 8
+	filename: "challenges"
+	title: "Farlanders"
+	icon: {
+		id: "farlanders:ender_golem_spawn_egg"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	default_quest_shape: ""
+	quests: [
+		{
+			title: "Who are they?"
+			icon: {
+				id: "inventorypets:pet_enderman"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			shape: "hexagon"
+			subtitle: "Don't look I'm shy uwu"
+			description: [
+				"The Far Lands were a place where the Farlander species used to live but for a unknown reason these lands disappeared."
+				"Ancient Books refer to this incident as the \"work of God\"."
+				"Centuries have passed since the disappearance of the Far Lands and the Farlanders had to adapt. "
+				"They stopped praising what they once considered their \"God\" and started their own path."
+				" Eventually they reached the lands of the Overworld and from that point the Farlanders started to evolve."
+				"New species were born, among them was the Enderman, the Ender Golem and the Enderminion."
+				"The Farlanders realized that to survive they needed protection from the other species so they began to create their own shelters. "
+				"They began to build small huts but after discovering new materials they expanded and villages were created."
+				"The evolution continued and with the discovery of Endumium Crystal they started to trade goods with each other."
+			]
+			id: "0000000000001093"
+			tasks: [{
+				id: "0000000000001099"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "000000000000109A"
+				type: "xp"
+				xp: 100
+			}]
+		}
+		{
+			title: "Passive Endermans"
+			icon: {
+				id: "cyclic:charm_world"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -2.0d
+			y: 0.5d
+			subtitle: "(✿◠‿◠)"
+			description: [
+				"1. Elder Farlander: they will trade with you, come out at night, scared of Looters & Rebels"
+				"2. Farlander: they trade, come out at night, scared of Looters & Rebels"
+				"3. Wanderer: will trade for cheap, scared of Ender Golems, Titans and Ender Guardians"
+			]
+			dependencies: ["0000000000001093"]
+			id: "00000000000010B1"
+			tasks: [{
+				id: "00000000000010B2"
+				type: "checkmark"
+				title: "Passive Endermans"
+			}]
+			rewards: [
+				{
+					id: "00000000000010B3"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00000000000010B4"
+					type: "item"
+					item: {
+						id: "farlanders:endumium_crystal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 9
+				}
+			]
+		}
+		{
+			title: "Will Attack you"
+			icon: {
+				id: "cyclic:ender_eye_reuse"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 1.0d
+			y: 1.5d
+			subtitle: "Wear a pumpkin to avoid being attacked by these"
+			description: [
+				"1. Classic Enderman: looking into his eyes gives you nausea effect"
+				"2. Mystic Enderman: 6 attacks; Blindness, Nausea, Falling Trap, Weakness, Regen (for himself), Ore Trap"
+				"3. Ender Guardian: carries a bow"
+				"4. Fanmade Enderman: spooky boi, don't turn your back on him"
+				"5. Looter: doesn't emmit particles, holds a sword, uses your sword against you when fighting"
+				"6. Rebel: wear a helmet, will poison you, can open doors"
+			]
+			dependencies: ["0000000000001093"]
+			id: "00000000000010B5"
+			tasks: [{
+				id: "00000000000010B6"
+				type: "checkmark"
+				title: "Will attack you "
+			}]
+			rewards: [
+				{
+					id: "00000000000010B7"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "000000000000008A"
+					type: "item"
+					item: {
+						id: "farlanders:endumium_crystal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 6
+				}
+			]
+		}
+		{
+			title: "BIG BOIS"
+			icon: {
+				id: "farlanders:ender_golem_spawn_egg"
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: 2.0d
+			y: 0.5d
+			subtitle: "they pack a punch"
+			description: [
+				"These Farlanders are really strong and I would advise not fighting them until you're looted."
+				"1: Ender Golem: avoid fighting by wearing a pumpkin"
+				"2. Titan: 3 attacks; will throw you in the air while giving you confusion, blindness, weakness, and wither debuffs."
+			]
+			dependencies: ["0000000000001093"]
+			id: "00000000000010B8"
+			tasks: [{
+				id: "00000000000010B9"
+				type: "checkmark"
+				title: "boss mode"
+			}]
+			rewards: [
+				{
+					id: "000000000000008B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "000000000000008C"
+					type: "item"
+					item: {
+						id: "farlanders:endumium_crystal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 6
+				}
+			]
+		}
+		{
+			title: "Tameable Enderman"
+			icon: {
+				id: "farlanders:mystic_wand_fire_small"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+				ForgeCaps: {
+					"dungeons_gear:weapon": {
+						lastFiredTime: 0L
+						fuseShotCounter: 0
+						crossbowChargeTime: 0
+						bowChargeTime: 0.0f
+					}
+				}
+			}
+			x: -1.0d
+			y: 1.5d
+			subtitle: "good bois"
+			description: [
+				"Can be tamed with apples"
+				"1. Enderminion: can give swords to boost attack, check stats with paper"
+				""
+				"2. Mystical Enderminion: shoots fireballs instead of using swords and can trade items."
+				"> will take 5 iron, gold, emeralds, rubies, or diamond for trades"
+			]
+			dependencies: ["0000000000001093"]
+			id: "00000000000010BA"
+			tasks: [{
+				id: "00000000000010BB"
+				type: "checkmark"
+				title: "good bois"
+			}]
+			rewards: [
+				{
+					id: "0000000000000059"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "000000000000005A"
+					type: "item"
+					item: {
+						id: "farlanders:endumium_crystal"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 6
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -1.0d
+			id: "00000000000010BC"
+			tasks: [{
+				id: "00000000000010BD"
+				type: "kill"
+				entity: "farlanders:fanmade_enderman"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "00000000000010BE"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "00000000000010BF"
+					type: "item"
+					item: {
+						id: "farmersdelight:steak_and_potatoes"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 0.5d
+			id: "00000000000010C0"
+			tasks: [{
+				id: "00000000000010C1"
+				type: "kill"
+				entity: "farlanders:ender_golem"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "00000000000010C2"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "00000000000010C3"
+					type: "item"
+					item: {
+						id: "pamhc2foodcore:epicbaconitem"
+						Count: 1b
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+					count: 5
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.0d
+			id: "00000000000010C4"
+			tasks: [{
+				id: "00000000000010C5"
+				type: "kill"
+				entity: "farlanders:titan"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "00000000000010C6"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "00000000000010C9"
+					type: "item"
+					item: {
+						id: "farlanders:nightfall_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+						ForgeCaps: {
+							"dungeons_gear:weapon": {
+								lastFiredTime: 0L
+								fuseShotCounter: 0
+								crossbowChargeTime: 0
+								bowChargeTime: 0.0f
+							}
+						}
+					}
+				}
+			]
+		}
+	]
+}

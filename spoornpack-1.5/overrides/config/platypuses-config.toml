@@ -1,0 +1,6 @@
+
+[Platypuses]
+	#Perry the platypus spawn possibility
+	#Range: 0 ~ 33
+	perry_spawn_chance = 5
+

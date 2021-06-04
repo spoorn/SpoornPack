@@ -1,0 +1,9 @@
+{
+	id: "0000000000000094"
+	group: ""
+	order_index: 29
+	filename: "tech"
+	title: "Tech"
+	default_quest_shape: ""
+	quests: [ ]
+}

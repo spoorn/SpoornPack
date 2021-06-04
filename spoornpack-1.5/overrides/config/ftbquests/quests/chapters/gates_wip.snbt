@@ -1,0 +1,39 @@
+{
+	id: "0000000000000B65"
+	group: ""
+	order_index: 16
+	filename: "gates_wip"
+	title: "Gates WIP"
+	icon: {
+		id: "mapperbase:steel_fence_gate"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	always_invisible: true
+	default_quest_shape: ""
+	quests: [{
+		title: "The Experts 2: Electric Boogalo"
+		icon: {
+			id: "mekanism:robit"
+			Count: 1b
+			ForgeCaps: {
+				"dungeons_gear:weapon": {
+					lastFiredTime: 0L
+					fuseShotCounter: 0
+					crossbowChargeTime: 0
+					bowChargeTime: 0.0f
+				}
+			}
+		}
+		x: 0.0d
+		y: 0.0d
+		id: "0000000000000B6C"
+	}]
+}

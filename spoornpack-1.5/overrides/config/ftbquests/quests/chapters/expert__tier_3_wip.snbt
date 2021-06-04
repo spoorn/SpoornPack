@@ -1,0 +1,31 @@
+{
+	id: "0000000000000B68"
+	group: ""
+	order_index: 15
+	filename: "expert__tier_3_wip"
+	title: "Expert - Tier 3 WIP"
+	icon: {
+		id: "mekanism:mekasuit_helmet"
+		Count: 1b
+		tag: {
+			HideFlags: 2
+			mekData: {
+				EnergyContainers: [{
+					Container: 0b
+					stored: "16000000"
+				}]
+			}
+		}
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	always_invisible: true
+	default_quest_shape: ""
+	quests: [ ]
+}

@@ -1,0 +1,13 @@
+
+["Skunk Spawning"]
+	"Skunks Can Spawn Naturally" = true
+	#Range: 0 ~ 100
+	"Spawn Weight" = 10
+	"Skunks have a chance to drop Stink Potions on death" = true
+	#Range: 0 ~ 10
+	"Max Group Size" = 5
+	"Skunks will splash you with Stink if you get to close" = true
+
+["Stink Effect"]
+	"Stink Effects Skeletons" = false
+

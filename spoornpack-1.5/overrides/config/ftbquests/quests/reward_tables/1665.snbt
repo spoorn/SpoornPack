@@ -1,0 +1,48 @@
+{
+	id: "0000000000000681"
+	order_index: 12
+	title: "Blacksmith's Delight"
+	icon: {
+		id: "kubejs:blacksmiths_delight"
+		Count: 1b
+		ForgeCaps: {
+			"dungeons_gear:weapon": {
+				lastFiredTime: 0L
+				fuseShotCounter: 0
+				crossbowChargeTime: 0
+				bowChargeTime: 0.0f
+			}
+		}
+	}
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+		{ }
+	]
+}

@@ -1,0 +1,8 @@
+
+["Beaver Spawning"]
+	#Range: 0 ~ 100
+	"Spawn Weight" = 10
+	#Range: 0 ~ 10
+	"Max Group Size" = 5
+	"Beavers Can Spawn Naturally" = true
+
